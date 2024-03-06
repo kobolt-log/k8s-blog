@@ -1,6 +1,6 @@
 
 Vagrant.configure("2") do |config|
-    
+  #test  
   config.vm.box = "rockylinux/8"
   # Disk 확장설정 추가
   config.disksize.size = "50GB"
